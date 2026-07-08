@@ -1,5 +1,5 @@
-# automatic_evaluation_clinical_summary
-Source code for automatic evaluation of LLM-generated clinical summary.
+# Automatic Evaluation for Clinical Discharge Summaries
+Source code for automatic evaluation of LLM-generated clinical summaries.
 
 ### Install Dependencies
 To install all the packages used in this project, please install the dependencies by
