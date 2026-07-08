@@ -32,9 +32,15 @@ MTLD | nl_core_news_lg | en_core_web_lg |
 
 Model download: 
 [BioLORD-2023-M-Dutch-InContext-v1](https://huggingface.co/FremyCompany/BioLORD-2023-M-Dutch-InContext-v1)
+
 [Bio_ClinicalBERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT)
+
 [roberta-large-mnli](https://huggingface.co/FacebookAI/roberta-large-mnli)
+
 [EuroLLM-1.7b](http://huggingface.co/utter-project/EuroLLM-1.7B)
+
 [bert-base-multilingual-cased](https://huggingface.co/google-bert/bert-base-multilingual-cased) 
+
 [fasttext model](https://fasttext.cc/docs/en/crawl-vectors.html) 
+
 [Spacy model](https://spacy.io/models)
