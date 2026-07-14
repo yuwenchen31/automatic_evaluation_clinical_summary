@@ -9,11 +9,17 @@ pip install -r requirements.txt
 ```
 ### Files and Directories
 
-- `main.py`
+- `iaa.py` - Annotation statistics & Spearman correlation on error counts between two annotators (Table 2). 
+- `mimic` and `dutch_summary` repositories have the following files
+  - `metric_correlation.ipynb` - Dataset statistics (Table 1); Spearman & kendall's tau correlation for mimic dataset (Table 4); Mann-Whitney U test (Table 6)
+  - `metric_calculation.ipynb` - 26 metrics claculation
+  - `metric_utils.py`, `fragments.py`, `moverscore.py`, `smd.py` - utility modules for import in `metric_calculation.ipynb`
+ 
 
   
 ### Data 
-The Dutch Clinical Discharge Summary dataset cannot be made available because it contains private patient data. Hallucinations-Generated-DI is available from [PhysioNet](https://physionet.org/content/ann-pt-summ/1.0.1/). 
+- The Dutch Clinical Discharge Summary dataset cannot be made available because it contains private patient data. 
+- Hallucinations-Generated-DI is available from [PhysioNet](https://physionet.org/content/ann-pt-summ/1.0.1/). To find  the corresponding human-written summary of the generated summary, you need to find the exact string match between `generated.xml` and `mimic-iv-note-ext-di-bhc/datasets/all.json`. And extract the values with the key of “summary” from `all.json`. 
 
 ### Model 
 Models used for metric calculation. Please refer to the individual website for download.
